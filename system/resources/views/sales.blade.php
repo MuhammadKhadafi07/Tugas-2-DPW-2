@@ -93,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	                        	<div class="clearfix"> </div>
 	                        </div>
                             <div class="login_buttons">
-							  <div class="check_button"><a href="checkout.html">Check out</a></div>
+							  <div class="check_button"><a href="{{url('checkout')}}">Check out</a></div>
 							  <div class="login_button"><a href="{{url('login')}}">Login</a></div>
 							  <div class="clearfix"></div>
 						    </div>
@@ -153,9 +153,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<ul class="menu1">
 				<li class="item1"><a href="#" class="">What To Buy ?<img class="arrow-img" src="{{url('public')}}/images/arrow.png" alt=""/> </a>
 					<ul class="cute" style="display: none; overflow: hidden;">
-						<li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-						<li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-						<li class="subitem3"><a href="single.html">Automatic Fails </a></li>
+						<li class="subitem1"><a href="{{url('single')}}">Cute Kittens </a></li>
+						<li class="subitem2"><a href="{{url('single')}}">Strange Stuff </a></li>
+						<li class="subitem3"><a href="{{url('single')}}">Automatic Fails </a></li>
 					</ul>
 		         </li>
 			 </ul>
@@ -216,7 +216,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		   <div class="dreamcrub">
 			   	 <ul class="breadcrumbs">
                     <li class="home">
-                       <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
+                       <a href="{{url('home')}}" title="Go to Home Page">Home</a>&nbsp;
                        <span>&gt;</span>
                     </li>
                     <li class="home">&nbsp;
@@ -228,7 +228,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </li>
                </ul>
                 <ul class="previous">
-                	<li><a href="index.html">Back to Previous Page</a></li>
+                	<li><a href="{{url('home')}}">Back to Previous Page</a></li>
                 </ul>
                 <div class="clearfix"></div>
 			   </div>

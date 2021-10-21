@@ -51,7 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
 	  <div class="header_top">
    		<div class="logo">
-			<a href="index.html">Khadafi</a>
+			<a href="{{url('home')}}">Khadafi</a>
 		</div>	
 		<div class="header-bottom-right">
 	       <ul class="icon1 sub-icon1 profile_img">
@@ -93,8 +93,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	                        	<div class="clearfix"> </div>
 	                        </div>
                             <div class="login_buttons">
-							  <div class="check_button"><a href="checkout.html">Check out</a></div>
-							  <div class="login_button"><a href="login.html">Login</a></div>
+							  <div class="check_button"><a href="{{url('checkout')}}">Check out</a></div>
+							  <div class="login_button"><a href="{{url('login')}}">Login</a></div>
 							  <div class="clearfix"></div>
 						    </div>
 					      <div class="clearfix"></div>
@@ -109,11 +109,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				   <div class="box_content_center">
 					   <div class="menu_box_list">
 						   <ul>
-							   <li><a href="index.html">New Arrivals</a></li>
-							   <li class="active"><a href="sales.html">Sales</a></li> 
-							   <li><a href="sales.html">Collection</a></li> 
-							   <li><a href="about.html">About Us</a></li>
-							   <li><a href="contact.html">Contact</a></li>
+							   <li><a href="{{url('home')}}">New Arrivals</a></li>
+							   <li class="active"><a href="{{url('sales')}}">Sales</a></li> 
+							   <li><a href="{{url('sales')}}">Collection</a></li> 
+							   <li><a href="{{url('anout')}}">About Us</a></li>
+							   <li><a href="{{url('contact')}}">Contact</a></li>
 						   </ul>
 						</div>
 						<a class="boxclose" id="boxclose"><img src="{{url('public')}}/images/close.png" alt=""/></a>
@@ -229,7 +229,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="clearfix"></div>
 		   </div>
 		   <h1 class="title1">Shopping cart is empty</h1>
-		   <p class="cart">You have no items in your shopping cart.<br>Click<a href="index.html"> here</a> to continue shopping</p>
+		   <p class="cart">You have no items in your shopping cart.<br>Click<a href="{{url('home')}}"> here</a> to continue shopping</p>
          </div>
 	    <div class="clearfix"> </div>   	
     </div>   

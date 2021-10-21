@@ -51,7 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
 	  <div class="header_top">
    		<div class="logo">
-			<a href="index.html">Khadafi</a>
+			<a href="{{url('home')}}">Khadafi</a>
 		</div>	
 		<div class="header-bottom-right">
 	       <ul class="icon1 sub-icon1 profile_img">
@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	                            <div class="cart_box">
 							   	 <div class="message1">
 							   	     <div class="alert-close1"> </div> 
-					                <div class="list_img"><img src="images/2.jpg" class="img-responsive" alt=""/></div>
+					                <div class="list_img"><img src="{{url('public')}}/images/2.jpg" class="img-responsive" alt=""/></div>
 								    <div class="list_desc"><h4><a href="#">velit esse molestie</a></h4>1 x<span class="actual">
 		                             $12.00</span></div>
 		                              <div class="clearfix"></div>
@@ -93,8 +93,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	                        	<div class="clearfix"> </div>
 	                        </div>
                             <div class="login_buttons">
-							  <div class="check_button"><a href="checkout.html">Check out</a></div>
-							  <div class="login_button"><a href="login.html">Login</a></div>
+							  <div class="check_button"><a href="{{url('checkout')}}">Check out</a></div>
+							  <div class="login_button"><a href="{{url('login')}}">Login</a></div>
 							  <div class="clearfix"></div>
 						    </div>
 					      <div class="clearfix"></div>
@@ -109,11 +109,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				   <div class="box_content_center">
 					   <div class="menu_box_list">
 						   <ul>
-							   <li><a href="index.html">New Arrivals</a></li>
-							   <li class="active"><a href="sales.html">Sales</a></li> 
-							   <li><a href="sales.html">Collection</a></li> 
-							   <li><a href="about.html">About Us</a></li>
-							   <li><a href="contact.html">Contact</a></li>
+							   <li><a href="{{url('home')}}">New Arrivals</a></li>
+							   <li class="active"><a href="{{url('sales')}}">Sales</a></li> 
+							   <li><a href="{{url('sales')}}">Collection</a></li> 
+							   <li><a href="{{url('about')}}">About Us</a></li>
+							   <li><a href="{{url('contact')}}">Contact</a></li>
 						   </ul>
 						</div>
 						<a class="boxclose" id="boxclose"><img src="{{url('public')}}/images/close.png" alt=""/></a>
@@ -153,9 +153,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<ul class="menu1">
 				<li class="item1"><a href="#" class="">What To Buy ?<img class="arrow-img" src="{{url('public')}}/images/arrow.png" alt=""/> </a>
 					<ul class="cute" style="display: none; overflow: hidden;">
-						<li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-						<li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-						<li class="subitem3"><a href="single.html">Automatic Fails </a></li>
+						<li class="subitem1"><a href="{{url('single')}}">Cute Kittens </a></li>
+						<li class="subitem2"><a href="{{url('single')}}">Strange Stuff </a></li>
+						<li class="subitem3"><a href="{{url('single')}}">Automatic Fails </a></li>
 					</ul>
 		         </li>
 			 </ul>
@@ -216,7 +216,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		   <div class="dreamcrub">
 			   	 <ul class="breadcrumbs">
                     <li class="home">
-                       <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
+                       <a href="{{url('home')}}" title="Go to Home Page">Home</a>&nbsp;
                        <span>&gt;</span>
                     </li>
                     <li class="women">
@@ -224,7 +224,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </li>
                </ul>
                 <ul class="previous">
-                	<li><a href="index.html">Back to Previous Page</a></li>
+                	<li><a href="{{url('home')}}">Back to Previous Page</a></li>
                 </ul>
                 <div class="clearfix"></div>
 		   </div>
@@ -248,7 +248,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			    <div class="col-md-6 login-left">
 			  	 <h3>NEW CUSTOMERS</h3>
 				 <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
-				 <a class="acount-btn" href="register.html">Create an Account</a>
+				 <a class="acount-btn" href="{{url('register')}}">Create an Account</a>
 			   </div>	
 			   <div class="clearfix"> </div>
 		   </div>

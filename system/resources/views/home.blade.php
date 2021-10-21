@@ -93,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	                        	<div class="clearfix"> </div>
 	                        </div>
                             <div class="login_buttons">
-							  <div class="check_button"><a href="checkout.html">Check out</a></div>
+							  <div class="check_button"><a href="{{url('checkout')}}">Check out</a></div>
 							  <div class="login_button"><a href="{{url('login')}}">Login</a></div>
 							  <div class="clearfix"></div>
 						    </div>
